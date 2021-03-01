@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "10"
+services:
+  - docker
+install:
+  - docker pull pvargacl/oracle-xe-18.4.0:latest
+  - docker run -d --name oracle_database -p 1521:1521 -e ORACLE_PWD=oracle -v ${PWD}/oracle-setup:/docker-entrypoint-initdb.d/startup pvargacl/oracle-xe-18.4.0:latest
+  - npm install
+script: USE_DOCKER_CONNECTION=true npm run test-with-db
