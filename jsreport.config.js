@@ -1,7 +1,7 @@
 module.exports = {
-  'name': 'oracle-store',
-  'main': './lib/main.js',
-  'optionsSchema': {
+  name: 'oracle-store',
+  main: './lib/main.js',
+  optionsSchema: {
     store: {
       type: 'object',
       properties: {
