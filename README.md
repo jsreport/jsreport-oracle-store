@@ -10,9 +10,9 @@
 
 1. Install instant client basic: [oracle-instant-client](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html)
 
-2. set environment variables e.g. for 12.2
+2. set environment variables e.g. for 18.5
 ```
-ORACLE_HOME=/usr/lib/oracle/12.2/client64
+ORACLE_HOME=/usr/lib/oracle/18.5/client64
 PATH=$ORACLE_HOME/bin:$PATH
 LD_LIBRARY_PATH=$ORACLE_HOME/lib
 ```
