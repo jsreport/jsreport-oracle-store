@@ -13,12 +13,12 @@ module.exports = {
         type: 'object',
         properties: {
           schemaCreation: { type: 'boolean', default: true },
-          schema: { type: 'string' },
-          uri: { type: 'string' },
           user: { type: 'string' },
           password: { type: 'string' },
           connectString: { type: 'string' },
-          options: { type: 'object' }
+          poolMin: { type: 'number', default: 0 },
+          poolMax: { type: 'number', default: 20 },
+          poolIncrement: { type: 'number', default: 1 }
         }
       }
     }

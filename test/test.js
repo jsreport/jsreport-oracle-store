@@ -12,9 +12,9 @@ describe('common store tests', () => {
       user: 'jsreport',
       password: 'jsreport',
       connectString: 'localhost:1521/XEPDB1',
-      poolIncrement: 1,
+      poolMin: 0,
       poolMax: 20,
-      poolMin: 5
+      poolIncrement: 1
     }
 
     // we can start the container with:
@@ -23,9 +23,9 @@ describe('common store tests', () => {
       user: 'jsreport',
       password: 'jsreport',
       connectString: 'localhost:1521/XEPDB1',
-      poolIncrement: 1,
+      poolMin: 0,
       poolMax: 20,
-      poolMin: 5
+      poolIncrement: 1
     }
 
     const extOpts = USE_DOCKER_CONNECTION ? dockerOpts : localOpts
@@ -45,7 +45,7 @@ describe('common store tests', () => {
 
   before(async () => {
     reporter = await createReporter()
-    // await reporter.documentStore.drop()
+    await reporter.documentStore.drop()
     await reporter.close()
   })
 
