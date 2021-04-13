@@ -8,6 +8,8 @@
 
 ## Installation
 
+**Only version 12 or higher is supported**
+
 1. Install instant client basic: [oracle-instant-client](https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html)
 
 2. set environment variables e.g. for 18.5
