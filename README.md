@@ -31,7 +31,7 @@ LD_LIBRARY_PATH=$ORACLE_HOME/lib
 		"oracle-store": {
 			"user": "jsreport",
 			"password": "password",
-			"connectString": "localhost:1521/XEPDB1",
+			"connectionString": "localhost:1521/XEPDB1",
 			"poolMin": 0,
 			"poolMax": 20,
 			"poolIncrement": 1

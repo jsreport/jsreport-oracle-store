@@ -11,7 +11,7 @@ describe('common store tests', () => {
     const localOpts = {
       user: 'jsreport',
       password: 'jsreport',
-      connectString: 'localhost:1521/XEPDB1',
+      connectionString: 'localhost:1521/XEPDB1',
       poolMin: 0,
       poolMax: 20,
       poolIncrement: 1
@@ -22,7 +22,7 @@ describe('common store tests', () => {
     const dockerOpts = {
       user: 'jsreport',
       password: 'jsreport',
-      connectString: 'localhost:1521/XEPDB1',
+      connectionString: 'localhost:1521/XEPDB1',
       poolMin: 0,
       poolMax: 20,
       poolIncrement: 1

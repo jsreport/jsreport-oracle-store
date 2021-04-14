@@ -15,7 +15,7 @@ module.exports = {
           schemaCreation: { type: 'boolean', default: true },
           user: { type: 'string' },
           password: { type: 'string' },
-          connectString: { type: 'string' },
+          connectionString: { type: 'string' },
           poolMin: { type: 'number', default: 0 },
           poolMax: { type: 'number', default: 20 },
           poolIncrement: { type: 'number', default: 1 }
