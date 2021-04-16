@@ -1,7 +1,7 @@
 # jsreport-oracle-store
 
 [![NPM Version](http://img.shields.io/npm/v/jsreport-oracle-store.svg?style=flat-square)](https://npmjs.com/package/jsreport-oracle-store)
-[![Build Status](https://travis-ci.com/jsreport/jsreport-oracle-store.png?branch=master)](https://travis-ci.org/jsreport/jsreport-oracle-store)
+[![Build Status](https://travis-ci.com/jsreport/jsreport-oracle-store.png?branch=master)](https://travis-ci.com/jsreport/jsreport-oracle-store)
 
 **[jsreport](https://github.com/jsreport/jsreport) template store extension allowing to persist data in [Oracle database](https://www.oracle.com/database/)**
 
