@@ -1,3 +1,6 @@
+**⚠️ This repository has been moved to the monorepo [jsreport/jsreport](https://github.com/jsreport/jsreport)**
+--
+
 # jsreport-oracle-store
 
 [![NPM Version](http://img.shields.io/npm/v/jsreport-oracle-store.svg?style=flat-square)](https://npmjs.com/package/jsreport-oracle-store)
